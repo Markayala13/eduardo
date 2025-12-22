@@ -15,7 +15,7 @@ export default function HeroSlider() {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="/video/2412111_Graden_Flowering_Plants_3840x2160.mov" type="video/mp4" />
+          <source src="/video/hero-video-optimized.mp4" type="video/mp4" />
         </video>
 
         {/* Dark Overlay */}
