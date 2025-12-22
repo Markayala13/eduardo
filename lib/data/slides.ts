@@ -18,7 +18,7 @@ export interface Slide {
 export const slides: Slide[] = [
   {
     id: 1,
-    image: "/pics/picsv2/Resized_20251003_074921.remini-enhanced.jpg",
+    image: "/pics/picsv2/1.jpg",
     imageAlt: "Eduardo's Landscaping: perfectly maintained residential lawn with professional landscaping",
     eyebrow: "Professional Service",
     headline: "Your Yard. Upgraded.",
@@ -31,7 +31,7 @@ export const slides: Slide[] = [
   },
   {
     id: 2,
-    image: "/pics/picsv2/Resized_20251114_105716.remini-enhanced.jpg",
+    image: "/pics/picsv2/3.jpg",
     imageAlt: "Eduardo's Landscaping: before and after yard transformation showing cleanup service",
     eyebrow: "Same-Week Service",
     headline: "From Messy to Fresh—Fast.",
@@ -44,7 +44,7 @@ export const slides: Slide[] = [
   },
   {
     id: 3,
-    image: "/pics/picsv2/Resized_20251124_155712.remini-enhanced.jpg",
+    image: "/pics/picsv2/5.jpg",
     imageAlt: "Eduardo's Landscaping: expertly trimmed hedges and maintained garden landscape",
     eyebrow: "Weekly Programs",
     headline: "Clean Lines. Clean Look.",
