@@ -113,7 +113,8 @@ export default function ProjectsCarousel() {
             {projects.map((project, index) => (
               <SwiperSlide key={project.id} className="swiper-slide-custom">
                 <div
-                  className="group relative aspect-[3/4] max-h-[550px] md:max-h-[650px] rounded-3xl overflow-hidden cursor-pointer shadow-2xl hover:shadow-[0_20px_60px_rgba(124,179,66,0.4)] transition-all duration-500 mx-auto border-4 border-transparent hover:border-accent/30"
+                  className="group relative rounded-3xl overflow-hidden cursor-pointer shadow-2xl hover:shadow-[0_20px_60px_rgba(124,179,66,0.4)] transition-all duration-500 mx-auto border-4 border-transparent hover:border-accent/30"
+                  style={{ width: '100%', height: '650px' }}
                   onClick={() => openLightbox(index)}
                   role="button"
                   tabIndex={0}
@@ -127,8 +128,7 @@ export default function ProjectsCarousel() {
                   <img
                     src={project.image}
                     alt={project.alt}
-                    style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   />
 
                   {/* Shine Effect */}
