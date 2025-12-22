@@ -124,11 +124,10 @@ export default function ProjectsCarousel() {
                   }}
                   aria-label={`View ${project.title} in full screen`}
                 >
-                  <Image
+                  <img
                     src={project.image}
                     alt={project.alt}
-                    fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
 
@@ -271,13 +270,11 @@ export default function ProjectsCarousel() {
             className="relative w-full h-full max-w-7xl max-h-[90vh] mx-4"
             onClick={(e) => e.stopPropagation()}
           >
-            <Image
+            <img
               src={projects[currentImageIndex].image}
               alt={projects[currentImageIndex].alt}
-              fill
-              sizes="100vw"
+              style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}
               className="object-contain"
-              priority
             />
           </div>
 
