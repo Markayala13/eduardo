@@ -87,16 +87,4 @@ export const projects: Project[] = [
     alt: "Eduardo's Landscaping: leaf removal service",
     title: "Leaf Removal",
   },
-  {
-    id: 14,
-    image: "/pics/optimized/att.L7NaxfvfeocezDAr-HJgG8tV3GDlphowJTqVkEtSJng.jpg.jpeg",
-    alt: "Eduardo's Landscaping: edging and bed maintenance",
-    title: "Edging & Bed Maintenance",
-  },
-  {
-    id: 15,
-    image: "/pics/optimized/att.RI8Eph89zGcs21vxYzbIv9ynoL2APvuCEFSRmxnz5yo.png.jpeg",
-    alt: "Eduardo's Landscaping: complete property maintenance",
-    title: "Complete Property Care",
-  },
 ];
