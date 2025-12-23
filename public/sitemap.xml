@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage - Highest priority -->
+  <url>
+    <loc>https://eduardolandscaping.com</loc>
+    <lastmod>2024-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://eduardolandscaping.com/images/hero-1.jpg</image:loc>
+      <image:title>Eduardo's Landscaping - Professional Lawn Care Phoenix</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://eduardolandscaping.com/images/hero-2.jpg</image:loc>
+      <image:title>Professional Landscaping Services</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://eduardolandscaping.com/images/hero-3.jpg</image:loc>
+      <image:title>Expert Yard Maintenance</image:title>
+    </image:image>
+  </url>
+
+  <!-- Services page (if you add individual service pages later) -->
+  <url>
+    <loc>https://eduardolandscaping.com/#services</loc>
+    <lastmod>2024-12-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Contact section -->
+  <url>
+    <loc>https://eduardolandscaping.com/#contact</loc>
+    <lastmod>2024-12-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Gallery/Projects section -->
+  <url>
+    <loc>https://eduardolandscaping.com/#projects</loc>
+    <lastmod>2024-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://eduardolandscaping.com/images/before-after-1-before.jpg</image:loc>
+      <image:title>Before and After Landscaping Project 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://eduardolandscaping.com/images/before-after-1-after.jpg</image:loc>
+      <image:title>After Landscaping Transformation 1</image:title>
+    </image:image>
+  </url>
+
+  <!-- Serving Areas section -->
+  <url>
+    <loc>https://eduardolandscaping.com/#areas</loc>
+    <lastmod>2024-12-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>

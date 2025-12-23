@@ -116,7 +116,7 @@ export default function Footer() {
               Serving the community with professional care
             </p>
             <p className="text-white/40 text-xs mt-1">
-              made by antoshkadev.com
+              made by <a href="https://antoshkadev.com/" rel="nofollow" className="hover:text-white/60 transition-colors">Antoshkadev</a>
             </p>
           </div>
         </div>

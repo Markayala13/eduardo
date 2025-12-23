@@ -1,0 +1,46 @@
+# robots.txt for Eduardo's Landscaping - Professional SEO Configuration
+# https://eduardolandscaping.com/robots.txt
+
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://eduardolandscaping.com/sitemap.xml
+
+# Google Bot specific rules
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Crawl-delay: 0
+
+# Bing Bot specific rules
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Crawl-delay: 0
+
+# Image crawling
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Mobile crawling
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Allow Google AdSense
+User-agent: Mediapartners-Google
+Allow: /
+
+# Block bad bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+# Host preference (optional, helps with SEO)
+Host: https://eduardolandscaping.com

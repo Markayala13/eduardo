@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export', // Enable static HTML export for Hostinger
   images: {
     remotePatterns: [
       {
@@ -8,8 +9,10 @@ const nextConfig = {
         pathname: '/**',
       },
     ],
-    unoptimized: true, // Temporary: skip optimization
+    unoptimized: true, // Required for static export
   },
+  // Disable features not compatible with static export
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
